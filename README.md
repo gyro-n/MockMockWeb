@@ -45,4 +45,11 @@ You can customize the options by editing the Procfile, which is used by Heroku t
 
 For more details, see: https://devcenter.heroku.com/articles/nodejs
 
+現在稼働中のサービスについて
+-------------------
 
+EC2インスタンスは tamadevアカウントにあります。ElasticIPを関連付けしてあります。
+
+管理者権限で以下のshファイルを実行すると起動できます。
+
+　/home/ec2-user/MockMockWeb/run.sh
